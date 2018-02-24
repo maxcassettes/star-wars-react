@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.SW-logo {
+  position: absolute;
+  top:0px;
+  left:44%; 
+ 
+  height:auto;
+   -webkit-animation: App-logo-spin 4s infinite linear;
+}
+
+.film {
+  font-size: 1.5em;
+  padding: 10px 10px;  
+}
+
+.nav {
+ align-items: center;
+ text-align: center;
+}
+
+.navBtn {
+  color: yellow;
+  background:black;
+  border:none;
+  padding: 2px 10px;
+  margin: 5% 2% 2% 5%;
+  font-size: 24px;
+  margin-top:10px;
+  cursor: pointer;
+}
+
